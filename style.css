@@ -289,6 +289,26 @@ form .btn.btn2{
     cursor: pointer;
 }
 
+/* certification */
+.certificate {
+    margin: 5px 0;
+    padding: 20px 0;
+    display: inline-flexbox;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.cp {
+    align-items: center;
+    padding: 30px 40px;
+}
+.certificate img{
+    transition: transform 0.5s;
+}
+.certificate img:hover {
+    transform: scale(1.1);
+    background: linear-gradient(rgba(0,0,0,0.6), #ff003c);
+}
+
 /*-----------footer-------*/
 footer {
     background-color: #333;
